@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-driver = webdriver.Chrome('C:\Program Files (x86)\chromedriver.exe')
+driver = webdriver.Chrome(' """Enter path of chromedriver.exe on your disk here""" ')
 
 driver.get('https://172.16.1.1:8090/')
 
